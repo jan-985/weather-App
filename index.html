@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="weather.css">
+  <title>Weather App</title>
+</head>
+
+<body class="text-center m-3 bg-blu-3">
+  <div class="container my-5 border border-1 shadow-sm rounded-3 bg-blu-1">
+    <h1 class="display-6 font-width-7 m-4">Weather App</h1>
+
+    <div class="row text-center my-3">
+      <form class="input-group mb-3" id="button-addon1">
+        <input type="text" class="form-control font-width-5" placeholder="Enter name of the city" aria-label="City"
+          aria-describedby="button-addon2" id="city">
+        <button class="btn btn-outline-primary" type="submit" id="button-addon2">Get Weather</button>
+      </form>
+    </div>
+    <div class="container" id="weather-data">
+      <div class="icon-link">
+        <!--<img class="figure-img" src="http://openweathermap.org/img/wn/01d.png" alt="wheather icon">-->
+      </div>
+      <div class="display-5 font-width-5" id="temperature">
+
+      </div>
+      <p class="description h2 my-4 font-width-5"></p>
+      <div class="row details">
+        <!-- <div class="h2 col-md bg-orn-4 m-2 rounded-2 shadow-sm font-width-5 p-5" id="feels-like">Feels like: </div>
+        <div class="h2 col-md bg-orn-4 m-2 rounded-2 shadow-sm font-width-5 p-5" id="humidity">Humidity: </div>
+        <div class="h2 col-md bg-orn-4 m-2 rounded-2 shadow-sm font-width-5 p-5" id="wind-speed">wind speed: </div> -->
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

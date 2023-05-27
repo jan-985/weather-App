@@ -1,0 +1,48 @@
+.font-width-5 {
+  font-weight: 500;
+}
+
+.font-width-7 {
+  font-weight: 700;
+}
+
+
+.bg-gr-1 {
+  background-color: rgb(219, 219, 219);
+}
+
+.bg-gr-2 {
+  background-color: rgb(153, 153, 153);
+}
+
+.bg-gr-3 {
+  background-color: rgb(104, 103, 103);
+}
+
+.bg-blu-1 {
+  background-color: rgb(186, 224, 255);
+}
+
+.bg-blu-2 {
+  background-color: rgb(156, 209, 252);
+}
+
+.bg-blu-3 {
+  background-color: rgb(124, 193, 250);
+}
+
+.bg-ylo-1 {
+  background-color: rgb(252, 252, 167);
+}
+
+.bg-ylo-2 {
+  background-color: rgb(252, 252, 139);
+}
+
+.bg-ylo-3 {
+  background-color: rgb(253, 253, 110);
+}
+
+.bg-orn-4 {
+  background-color: rgb(253, 186, 110);
+}
